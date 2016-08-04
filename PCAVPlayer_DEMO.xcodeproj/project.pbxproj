@@ -17,7 +17,7 @@
 		0C84BBAF1D532D5900241804 /* PCAVPlayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C84BBAD1D532D5900241804 /* PCAVPlayer.xib */; };
 		0C84BBB21D532F5600241804 /* PCAVPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C84BBB11D532F5600241804 /* PCAVPlayerViewController.m */; };
 		0C84BBB61D5331C800241804 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C84BBB51D5331C800241804 /* Reachability.m */; };
-		0C84BBBA1D53403A00241804 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C84BBB91D53403A00241804 /* default.png */; };
+		0C84BBBC1D5346BD00241804 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C84BBBB1D5346BD00241804 /* default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +38,7 @@
 		0C84BBB11D532F5600241804 /* PCAVPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCAVPlayerViewController.m; sourceTree = "<group>"; };
 		0C84BBB41D5331C800241804 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		0C84BBB51D5331C800241804 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		0C84BBB91D53403A00241804 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default.png; path = ../../../../../Desktop/default.png; sourceTree = "<group>"; };
+		0C84BBBB1D5346BD00241804 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 		0C84BB931D532AC700241804 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0C84BBB91D53403A00241804 /* default.png */,
+				0C84BBBB1D5346BD00241804 /* default.png */,
 				0C84BB941D532AC700241804 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -177,7 +177,7 @@
 				0C84BBAF1D532D5900241804 /* PCAVPlayer.xib in Resources */,
 				0C84BBA01D532AC700241804 /* Assets.xcassets in Resources */,
 				0C84BB9E1D532AC700241804 /* Main.storyboard in Resources */,
-				0C84BBBA1D53403A00241804 /* default.png in Resources */,
+				0C84BBBC1D5346BD00241804 /* default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

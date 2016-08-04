@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C84BB951D532AC700241804 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C84BB941D532AC700241804 /* main.m */; };
+		0C84BB981D532AC700241804 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C84BB971D532AC700241804 /* AppDelegate.m */; };
+		0C84BB9B1D532AC700241804 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C84BB9A1D532AC700241804 /* ViewController.m */; };
+		0C84BB9E1D532AC700241804 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C84BB9C1D532AC700241804 /* Main.storyboard */; };
+		0C84BBA01D532AC700241804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C84BB9F1D532AC700241804 /* Assets.xcassets */; };
+		0C84BBA31D532AC700241804 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C84BBA11D532AC700241804 /* LaunchScreen.storyboard */; };
+		0C84BBAE1D532D5900241804 /* PCAVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C84BBAC1D532D5900241804 /* PCAVPlayer.m */; };
+		0C84BBAF1D532D5900241804 /* PCAVPlayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C84BBAD1D532D5900241804 /* PCAVPlayer.xib */; };
+		0C84BBB21D532F5600241804 /* PCAVPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C84BBB11D532F5600241804 /* PCAVPlayerViewController.m */; };
+		0C84BBB61D5331C800241804 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C84BBB51D5331C800241804 /* Reachability.m */; };
+		0C84BBBA1D53403A00241804 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C84BBB91D53403A00241804 /* default.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C84BB901D532AC700241804 /* PCAVPlayer_DEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PCAVPlayer_DEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C84BB941D532AC700241804 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C84BB961D532AC700241804 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C84BB971D532AC700241804 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C84BB991D532AC700241804 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C84BB9A1D532AC700241804 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C84BB9D1D532AC700241804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C84BB9F1D532AC700241804 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C84BBA21D532AC700241804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C84BBA41D532AC700241804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C84BBAB1D532D5900241804 /* PCAVPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCAVPlayer.h; sourceTree = "<group>"; };
+		0C84BBAC1D532D5900241804 /* PCAVPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCAVPlayer.m; sourceTree = "<group>"; };
+		0C84BBAD1D532D5900241804 /* PCAVPlayer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PCAVPlayer.xib; sourceTree = "<group>"; };
+		0C84BBB01D532F5600241804 /* PCAVPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCAVPlayerViewController.h; sourceTree = "<group>"; };
+		0C84BBB11D532F5600241804 /* PCAVPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCAVPlayerViewController.m; sourceTree = "<group>"; };
+		0C84BBB41D5331C800241804 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		0C84BBB51D5331C800241804 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		0C84BBB91D53403A00241804 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default.png; path = ../../../../../Desktop/default.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C84BB8D1D532AC700241804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C84BB871D532AC700241804 = {
+			isa = PBXGroup;
+			children = (
+				0C84BB921D532AC700241804 /* PCAVPlayer_DEMO */,
+				0C84BB911D532AC700241804 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C84BB911D532AC700241804 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C84BB901D532AC700241804 /* PCAVPlayer_DEMO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C84BB921D532AC700241804 /* PCAVPlayer_DEMO */ = {
+			isa = PBXGroup;
+			children = (
+				0C84BBB31D5331C800241804 /* Reachability */,
+				0C84BBAA1D532CE600241804 /* PCAVPlayer */,
+				0C84BB961D532AC700241804 /* AppDelegate.h */,
+				0C84BB971D532AC700241804 /* AppDelegate.m */,
+				0C84BB991D532AC700241804 /* ViewController.h */,
+				0C84BB9A1D532AC700241804 /* ViewController.m */,
+				0C84BB9C1D532AC700241804 /* Main.storyboard */,
+				0C84BB9F1D532AC700241804 /* Assets.xcassets */,
+				0C84BBA11D532AC700241804 /* LaunchScreen.storyboard */,
+				0C84BBA41D532AC700241804 /* Info.plist */,
+				0C84BB931D532AC700241804 /* Supporting Files */,
+			);
+			path = PCAVPlayer_DEMO;
+			sourceTree = "<group>";
+		};
+		0C84BB931D532AC700241804 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C84BBB91D53403A00241804 /* default.png */,
+				0C84BB941D532AC700241804 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C84BBAA1D532CE600241804 /* PCAVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				0C84BBAB1D532D5900241804 /* PCAVPlayer.h */,
+				0C84BBAC1D532D5900241804 /* PCAVPlayer.m */,
+				0C84BBAD1D532D5900241804 /* PCAVPlayer.xib */,
+				0C84BBB01D532F5600241804 /* PCAVPlayerViewController.h */,
+				0C84BBB11D532F5600241804 /* PCAVPlayerViewController.m */,
+			);
+			path = PCAVPlayer;
+			sourceTree = "<group>";
+		};
+		0C84BBB31D5331C800241804 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				0C84BBB41D5331C800241804 /* Reachability.h */,
+				0C84BBB51D5331C800241804 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C84BB8F1D532AC700241804 /* PCAVPlayer_DEMO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C84BBA71D532AC700241804 /* Build configuration list for PBXNativeTarget "PCAVPlayer_DEMO" */;
+			buildPhases = (
+				0C84BB8C1D532AC700241804 /* Sources */,
+				0C84BB8D1D532AC700241804 /* Frameworks */,
+				0C84BB8E1D532AC700241804 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PCAVPlayer_DEMO;
+			productName = PCAVPlayer_DEMO;
+			productReference = 0C84BB901D532AC700241804 /* PCAVPlayer_DEMO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C84BB881D532AC700241804 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = PCOnline;
+				TargetAttributes = {
+					0C84BB8F1D532AC700241804 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 0C84BB8B1D532AC700241804 /* Build configuration list for PBXProject "PCAVPlayer_DEMO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C84BB871D532AC700241804;
+			productRefGroup = 0C84BB911D532AC700241804 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C84BB8F1D532AC700241804 /* PCAVPlayer_DEMO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C84BB8E1D532AC700241804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C84BBA31D532AC700241804 /* LaunchScreen.storyboard in Resources */,
+				0C84BBAF1D532D5900241804 /* PCAVPlayer.xib in Resources */,
+				0C84BBA01D532AC700241804 /* Assets.xcassets in Resources */,
+				0C84BB9E1D532AC700241804 /* Main.storyboard in Resources */,
+				0C84BBBA1D53403A00241804 /* default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C84BB8C1D532AC700241804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C84BBB21D532F5600241804 /* PCAVPlayerViewController.m in Sources */,
+				0C84BB9B1D532AC700241804 /* ViewController.m in Sources */,
+				0C84BBAE1D532D5900241804 /* PCAVPlayer.m in Sources */,
+				0C84BB981D532AC700241804 /* AppDelegate.m in Sources */,
+				0C84BBB61D5331C800241804 /* Reachability.m in Sources */,
+				0C84BB951D532AC700241804 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0C84BB9C1D532AC700241804 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C84BB9D1D532AC700241804 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C84BBA11D532AC700241804 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C84BBA21D532AC700241804 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C84BBA51D532AC700241804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C84BBA61D532AC700241804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C84BBA81D532AC700241804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PCAVPlayer_DEMO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PCOnline.PCAVPlayer-DEMO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C84BBA91D532AC700241804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PCAVPlayer_DEMO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PCOnline.PCAVPlayer-DEMO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C84BB8B1D532AC700241804 /* Build configuration list for PBXProject "PCAVPlayer_DEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C84BBA51D532AC700241804 /* Debug */,
+				0C84BBA61D532AC700241804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C84BBA71D532AC700241804 /* Build configuration list for PBXNativeTarget "PCAVPlayer_DEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C84BBA81D532AC700241804 /* Debug */,
+				0C84BBA91D532AC700241804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C84BB881D532AC700241804 /* Project object */;
+}
